@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片展示</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/photocard.css')}}" />
+</head>
+
+<body>
+    <div class="ih-item circle effect1"><a href="#">
+            <div class="spinner"></div>
+            <div class="img"><img src="{{url_for('static',filename='image/猫小咪.jpg')}}" alt="img"></div>
+            <div class="info">
+                <div class="info-back">
+                    <h3>嘉定图书馆</h3>
+                    <p>嘉定校区的图书馆</p>
+                </div>
+            </div>
+        </a></div>
+    <!-- <script src="{{url_for('static',filename='js/photocard.js')}}"></script> -->
+
+</body>
+
+</html>
